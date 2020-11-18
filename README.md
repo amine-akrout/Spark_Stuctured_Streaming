@@ -46,7 +46,7 @@ To run docker compose simply run the following command:
 ```
 docker-compose up -d
 ```
-![](demo/docker-stack.png)
+![](demo/docker-stack.PNG)
 
 
 
@@ -62,7 +62,7 @@ You can access the pgadmin GUI through http://localhost:8080
 
 You can change them in the config file
 
-![](demo/pg-server.png)
+![](demo/pg-server.PNG)
 
 ### 2) Create a Database and a table
 ```
@@ -73,7 +73,7 @@ python create_table
 
 This will create a database orders and a table retail using psycopg2 library (you can change the names using the data.ini file)
 
-![](demo/pg-data-table.png)
+![](demo/pg-data-table.PNG)
 
 
 
@@ -107,14 +107,14 @@ This will allow Spark to :
 * Optionally : write batches in the console for debugging
 
 You can check if the table retail is updated in pgAdmin
-![](demo/pg-update-table.png)
+![](demo/pg-update-table.PNG)
 
 For Debugging you can print the batches in the console 
-![](demo/batches.png)
+![](demo/batches.PNG)
 
 
 #### Spark UI
-![](demo/spark.png)
+![](demo/spark.PNG)
 
 
 ## Superset configuration
@@ -138,7 +138,7 @@ To set up superset we need to configure it. In order to do this, access http://l
 
 This will create a database orders and a table retail using psycopg2 library (you can change the names using the data.ini file)
 
-![](demo/pg-data-table.png)
+![](demo/pg-data-table.PNG)
 
 
 
