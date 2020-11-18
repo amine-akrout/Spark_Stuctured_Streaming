@@ -8,6 +8,7 @@ postgres/
 redis/
 pgadmin/
 temp/
+backup/
 postgresql-42.2.18.jar
 run.sh
 superset_config.py
